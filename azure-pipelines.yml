@@ -14,10 +14,9 @@ strategy:
       imageName: "macos-10.14"
     windows:
       imageName: "vs2017-win2016"
-  maxParrallel: 3
 
 pool:
-  vmImage: 'vs2017-win2016'
+  vmImage: $(imageName)
 
 variables:
   buildConfiguration: 'Release'
