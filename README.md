@@ -1,4 +1,4 @@
-[![Build Status](https://russalmond.visualstudio.com/YamlPipelineTutorial/_apis/build/status/russalmond.pipelines-dotnet-core?branchName=master)](https://russalmond.visualstudio.com/YamlPipelineTutorial/_build/latest?definitionId=2&branchName=master)
+[![Build Status](https://russalmond.visualstudio.com/TestProject/_apis/build/status/russalmond.pipelines-dotnet-core?branchName=master)](https://russalmond.visualstudio.com/TestProject/_build/latest?definitionId=8&branchName=master)
 
 # Sample ASP.NET Core application for Azure Pipelines docs
 
