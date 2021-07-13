@@ -11,9 +11,7 @@ strategy:
     windows:
       imageName: STDT-RUSSAL7
 
-pool:
-  Name: "Self Host"
-  vmImage: $(imageName)
+pool: Self Host
 
 variables:
   buildConfiguration: 'Release'
