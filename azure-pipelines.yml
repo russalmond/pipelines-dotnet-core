@@ -9,7 +9,7 @@ trigger:
 strategy:
   matrix:
     windows:
-      imageName: STDT-RUSSAL7
+      imageName: russal.Self Host.STDT-RUSSAL7
 
 pool:
   vmImage: $(imageName)
