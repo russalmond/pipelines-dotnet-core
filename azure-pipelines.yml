@@ -11,7 +11,8 @@ strategy:
     windows:
       imageName: russal.Self Host.STDT-RUSSAL7
 
-pool: Self Host
+pool:
+  Name: Self Host
   vmImage: $(imageName)
 
 variables:
