@@ -23,5 +23,9 @@ steps:
   inputs:
     filePath: '.\msfsskim.ps1'
     arguments: '$(FolderToSkim) $(Build.ArtifactStagingDirectory)'
-
+- task: PublishPipelineArtifact@1
+  inputs:
+    targetPath: '$(Build.ArtifactsStagingDirectory)'
+    artifact: 'MSFS Content Security Review Results'
+    publishLocation: 'pipeline'
 
