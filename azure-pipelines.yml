@@ -12,7 +12,7 @@ strategy:
       imageName: STDT-RUSSAL7
 
 pool:
-  Name: Self Host
+  Name: "Self Host"
   vmImage: $(imageName)
 
 variables:
