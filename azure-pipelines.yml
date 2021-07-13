@@ -22,6 +22,6 @@ steps:
 - task: PowerShell@2
   inputs:
     filePath: '.\msfsskim.ps1'
-    arguments: 'e:\deleteme $(Build.ArtifactStagingDirectory)'
+    arguments: '$(FolderToSkim) $(Build.ArtifactStagingDirectory)'
 
 
