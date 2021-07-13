@@ -9,7 +9,7 @@ trigger:
 strategy:
   matrix:
     windows:
-      imageName: "Self Host"
+      imageName: Self Host"
 
 pool:
   vmImage: $(imageName)
